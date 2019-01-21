@@ -1,0 +1,11 @@
+{
+  "name": "csvToHtml",
+  "version": "1.0.0",
+  "description": "Putting CSV data into HTML templates",
+  "main": "index.js",
+  "author": "Andrew Stanton up683693@myport.ac.uk",
+  "license": "MIT",
+  "dependencies": {
+    "csv": "^5.1.1"
+  }
+}
