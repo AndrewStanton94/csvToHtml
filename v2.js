@@ -37,7 +37,7 @@ streamIn
     let quals = `<h4>Qualifications or experience</h4>\n${makeList(entryReq)}${requirementsLink(code)}`;
     let lang = `<h4>English language requirements</h4>\n${makeList(language)}${languageLink(code)}`;
     let selection = process
-      ? `<h4>Selection Process</h4>\n${makeList(process)}`
+      ? `<h4>Selection process</h4>\n${makeList(process)}`
       : "";
     csvrow.summary = `${quals}\n\n${lang}\n\n${selection}`;
     console.log(csvrow);
