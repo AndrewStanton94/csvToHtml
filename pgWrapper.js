@@ -2,7 +2,7 @@ const processAFile = require('./core.js');
 
 const utils = require('./entryReqUtils.js');
 
-{
+const {
     makeList,
     makeCourseLink,
     requirementsLink,
